@@ -7,7 +7,7 @@ from datetime import date
 import pandas as pd
 
 # Define folder path containing your CSV files
-folder_path = os.path.abspath("final-20250320T174107Z-002/final/")
+folder_path = os.path.abspath("files/")
 csv_files = glob.glob(os.path.join(folder_path, "*.csv"))
 if not csv_files:
     st.error("🚨 No CSV files found! Please check the folder path.")
